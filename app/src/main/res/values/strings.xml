@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EndlessPagingListWithRecyclerView</string>
+    <string name="no_result">No results 😓</string>
 </resources>
