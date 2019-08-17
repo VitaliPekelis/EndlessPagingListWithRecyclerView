@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         PagedList.Config config = new PagedList.Config.Builder()
                 .setEnablePlaceholders(false)
                 .setPageSize(PAGE_SIZE)
+                .setInitialLoadSizeHint(PAGE_SIZE)
                 .build();
 
         LiveData<PagedList<DataItem>> pagedListLiveData = new LivePagedListBuilder<>(factory, config)
